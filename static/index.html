@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duolingo - Prove Your Love</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <meta property="og:title" content="Duolingo - Prove Your Love">
+    <meta property="og:description" content="Miss me? Prove it. Submit your love phrases to Duolingo.">
+    <meta property="og:image" content="img/duolingo-campaign.jpg">
+    <meta property="og:url" content="https://duolingo.com/prove-your-love">
+    <meta property="og:type" content="website">
+    <og>
+</head>
+<body class="landing-page">
+    <div class="container">
+        <div class="logo">
+            <img src="img/logo-white.svg" alt="Duolingo Logo">
+        </div>
+        <div class="duo-container">
+            <img src="img/1.png" alt="Skeptical Duo" class="duo-image">
+        </div>
+        <h1 class="headline">Miss me? Prove it.</h1>
+        <p class="subheadline">You cried when I was gone. Now show me your love.</p>
+        <form id="submission-form" class="input-container">
+            <div class="category-selector">
+                <span>To tell your</span>
+                <select id="category-dropdown" class="dropdown-select">
+                    <option value="family">family</option>
+                    <option value="friends">friends</option>
+                    <option value="partner">partner</option>
+                    <option value="crush">crush</option>
+                    <option value="pet">pet</option>
+                </select>
+                <span>you love them in</span>
+                <select id="language-dropdown" class="dropdown-select">
+                    <option value="en">🇺🇸 English</option>
+                    <option value="es">🇪🇸 Spanish</option>
+                    <option value="fr">🇫🇷 French</option>
+                    <option value="de">🇩🇪 German</option>
+                    <option value="it">🇮🇹 Italian</option>
+                    <option value="ja">🇯🇵 Japanese</option>
+                    <option value="ko">🇰🇷 Korean</option>
+                    <option value="zh">🇨🇳 Chinese</option>
+                </select>
+                <span>say:</span>
+            </div>
+            <input type="text" id="phrase-input" class="phrase-input" placeholder="Expression of love for your family (max 10 words)" required maxlength="50">
+            <button type="submit" class="submit-button">SUBMIT</button>
+        </form>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
